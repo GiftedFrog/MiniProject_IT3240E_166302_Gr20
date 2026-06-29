@@ -41,7 +41,7 @@ def solve_p2_proposition1(Psi_nn, phi_n):
             best_val = val
             best_theta = t
             
-    return  
+    return best_theta  # <-- ĐÃ SỬA LỖI Ở ĐÂY (Thêm best_theta vào sau return)
 
 # --- 2. THUẬT TOÁN AO ĐA NĂNG ---
 def optimize_irs(h_d, h_r, G, mode='prop1', max_iters=15, tol=1e-4):
